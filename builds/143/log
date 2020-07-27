@@ -1,0 +1,186 @@
+Started by user [8mha:////4Ai9zQLOzxo/hwuASvLQytU97x0VW4Uze5L2i10ui99aAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9jNS8okoAn1STsMAAAAA=[0mhenry
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/repairnator-sorald-experiment
+The following tools will be used : [Sorald]
+workspace for repairnator: /var/lib/jenkins/userContent/RepairnatorWorkspace
+jar location /var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar
+17:03:16,018 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:03:16,019 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [jar:file:/var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar!/logback-test.xml]
+17:03:16,035 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@53b32d7 - URL [jar:file:/var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar!/logback-test.xml] is not of type file
+17:03:16,162 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:03:16,167 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:03:16,174 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:03:16,180 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:03:16,238 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+17:03:16,239 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+17:03:16,258 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1413653265 - No compression will be used
+17:03:16,259 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1413653265 - Will use the pattern %d{yyyy-MM-dd}.%i.log for the active file
+17:03:16,262 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - The date pattern is 'yyyy-MM-dd' from file name pattern '%d{yyyy-MM-dd}.%i.log'.
+17:03:16,262 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - Roll-over at midnight.
+17:03:16,265 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - Setting initial period to Tue Jul 14 17:03:16 CEST 2020
+17:03:16,266 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+17:03:16,267 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:03:16,269 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /var/lib/jenkins/userContent/RepairnatorWorkspace/realtime.log
+17:03:16,269 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/var/lib/jenkins/userContent/RepairnatorWorkspace/realtime.log]
+17:03:16,270 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mongodb.driver] to WARN
+17:03:16,271 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.spirals.jtravis.helpers] to INFO
+17:03:16,271 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.spirals.repairnator] to INFO
+17:03:16,271 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.lille.nopol] to INFO
+17:03:16,271 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to OFF
+17:03:16,271 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to OFF
+17:03:16,271 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jgit] to OFF
+17:03:16,271 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:03:16,271 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:03:16,272 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+17:03:16,272 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:03:16,272 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1a968a59 - Registering current configuration as safe fallback point
+
+[main] 17:03:16.762 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitSerializerEngines[0;39m - Initialize file serializer engines. 
+[main] 17:03:16.765 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitSerializerEngines[0;39m - MongoDB won't be used for serialization. 
+[main] 17:03:16.765 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitNotifiers[0;39m - The email notifier engine won't be used. 
+Gitbranch master
+[main] 17:03:16.796 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 17:03:16.796 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - PIPELINE STEPS 
+[main] 17:03:16.796 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 17:03:16.796 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CloneCheckoutBranchRepository 
+[main] 17:03:16.796 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryInitRepoToPush 
+[main] 17:03:16.796 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - Sorald 
+[main] 17:03:16.796 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch 
+[main] 17:03:16.796 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CheckoutPatchedBuild 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - BuildProject 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - TestProject 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GatherTestInformation 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeSourceDir 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeModules 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - WritePropertyFile 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitProcessEnd 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryPushProcessEnd 
+[main] 17:03:16.797 [34mINFO [0;39m [36mf.i.s.r.p.s.CloneCheckoutBranchRepository[0;39m - Cloning repository https://github.com/eclipse/eclipse.platform.swt.git in the following directory: /var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.swt-master_repo 
+[main] 17:04:22.309 [34mINFO [0;39m [36mf.i.s.r.p.s.p.GitRepositoryInitRepoToPush[0;39m - Repairnator is configured NOT to push. Step bypassed. 
+[main] 17:04:22.310 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Entrance in Sorald step... 
+[main] 17:04:22.314 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Repo: /var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.swt-master_repo 
+[main] 17:04:22.314 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Try to repair rule 2095 
+[main] 17:04:22.493 [34mINFO [0;39m [36morg.reflections.Reflections[0;39m - Reflections took 164 ms to scan 1 urls, producing 3 keys and 35 values  
+[Repair Mode] : SEGMENT
+[File Tree build time] : 90 ms
+[main] 17:04:22.750 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:04:27.072 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:04:34.965 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:04:35.126 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:04:37.107 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:04:42.615 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:04:42.673 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:04:44.277 [1;31mERROR[0;39m [36ms.s.compiler.jdt.JDTCommentBuilder[0;39m - "/* 64 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtArrayReadImpl at (/var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.swt-master_repo/examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet123.java:152), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482 
+[main] 17:04:44.278 [1;31mERROR[0;39m [36ms.s.compiler.jdt.JDTCommentBuilder[0;39m - "/* 64 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtArrayReadImpl at (/var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.swt-master_repo/examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet123.java:152), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482 
+[main] 17:04:44.278 [1;31mERROR[0;39m [36ms.s.compiler.jdt.JDTCommentBuilder[0;39m - "/* 64 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtArrayReadImpl at (/var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.swt-master_repo/examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet123.java:152), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482 
+[main] 17:04:44.349 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:04:47.560 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:04:47.607 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:04:48.934 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:04:52.059 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:04:52.107 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:04:56.837 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:05:06.838 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 98/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/accessibility/CTable.java 
+[Report about progress of Java AST analyzer] 17:05:07.714 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:05:07.857 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:05:14.721 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:05:24.725 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 69/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/junit/Test_org_eclipse_swt_widgets_TabFolder.java 
+[Report about progress of Java AST analyzer] 17:05:32.459 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:05:32.673 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:05:36.712 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:05:46.713 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 43/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/junit/Test_org_eclipse_swt_widgets_List.java 
+[Report about progress of Java AST analyzer] 17:05:51.425 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:05:51.551 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:05:52.560 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:05:54.167 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:05:54.186 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:05:54.839 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:05:56.279 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:05:56.300 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:05:57.243 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:05:59.362 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:05:59.396 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:06:01.691 [1;31mERROR[0;39m [36ms.s.compiler.jdt.JDTCommentBuilder[0;39m - "/* BMP_RLE4_COMPRESSION */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtBinaryOperatorImpl at (/var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt.tools/Icon Exe/org/eclipse/swt/tools/internal/IconExe.java:2977), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482 
+[main] 17:06:01.752 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:06:11.753 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 94/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt.tools/JavadocBasher/org/eclipse/swt/tools/internal/JavadocBasher.java 
+[Report about progress of Java AST analyzer] 17:06:13.052 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:06:13.357 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:06:15.577 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:06:16.502 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:06:16.550 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:06:16.808 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:06:17.269 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:06:17.297 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:06:17.693 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:06:18.280 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:06:18.305 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:06:19.597 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:06:20.549 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:06:20.594 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:06:22.947 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:06:28.839 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:06:28.916 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:06:33.380 [1;31mERROR[0;39m [36ms.s.compiler.jdt.JDTCommentBuilder[0;39m - "/* | OS.DLGC_WANTALLKEYS */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtFieldReadImpl at (/var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/win32/org/eclipse/swt/widgets/Control.java:4200), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482 
+[main] 17:06:33.598 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:06:43.604 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 23/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/win32/org/eclipse/swt/widgets/Widget.java 
+[Report about progress of Java AST analyzer] 17:06:53.604 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 48/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/win32/org/eclipse/swt/widgets/CoolBar.java 
+[Report about progress of Java AST analyzer] 17:07:03.605 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 63/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/cocoa/org/eclipse/swt/graphics/FontData.java 
+[Report about progress of Java AST analyzer] 17:07:13.439 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:07:13.706 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:07:15.527 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:07:25.528 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 46/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageData.java 
+[Report about progress of Java AST analyzer] 17:07:27.100 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:07:27.390 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:07:29.987 [1;31mERROR[0;39m [36ms.s.compiler.jdt.JDTCommentBuilder[0;39m - "/* 64 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtFieldReadImpl at (/var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets/Monitor.java:116), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482 
+[main] 17:07:30.087 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:07:40.090 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 55/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/JPEGDecoder.java 
+[Report about progress of Java AST analyzer] 17:07:50.091 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 89/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/gtk/org/eclipse/swt/graphics/TextLayout.java 
+[Report about progress of Java AST analyzer] 17:07:53.290 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:07:53.476 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:07:57.607 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:08:07.609 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 30/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT/gtk/org/eclipse/swt/widgets/Combo.java 
+[Report about progress of Java AST analyzer] 17:08:17.610 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 50/100 files analyzed, current file: eclipse-eclipse.platform.swt-master_repo/bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CTabFolderRenderer.java 
+[Report about progress of Java AST analyzer] 17:08:22.629 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:08:22.886 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:08:24.163 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:08:33.648 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 17:08:33.837 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 17:08:35.119 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 46 source files to be analyzed 
+[Report about progress of Java AST analyzer] 17:08:42.304 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 46/46 source files have been analyzed 
+-----Number of fixes------
+UnclosedResourcesProcessor: 5
+-----End of report------
+[Total repair time] : 259868 ms
+done
+[main] 17:08:42.376 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Number of patches found: 14 
+[main] 17:08:42.381 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - The repository won't be forked. 
+[main] 17:08:42.382 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - The project has not been forked. The PR won't be created. 
+All patches : 14
+[main] 17:08:42.382 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - The repository won't be forked. 
+[main] 17:08:42.383 [34mINFO [0;39m [36mf.i.s.r.p.s.p.GitRepositoryCommitPatch[0;39m - Repairnator is configured NOT to push. Step bypassed. 
+[main] 17:08:42.383 [1;31mERROR[0;39m [36mf.i.s.r.p.s.c.CheckoutPatchedBuild[0;39m - There is no patched build retrieved. This will stop now. 
+[main] 17:08:42.384 [34mINFO [0;39m [36mf.i.s.r.p.s.c.CheckoutPatchedBuild[0;39m -  
+[main] 17:08:42.824 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 17:08:42.824 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - PIPELINE EXECUTION SUMMARY 
+[main] 17:08:42.824 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CloneCheckoutBranchRepository........................SUCCESS [  65 s ] 
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryInitRepoToPush..........................SKIPPED           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - Sorald...............................................SUCCESS [ 260 s ] 
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch.............................SKIPPED           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CheckoutPatchedBuild.................................FAILURE [   0 s ] 
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - BuildProject.........................................NOT RUN           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - TestProject..........................................NOT RUN           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GatherTestInformation................................NOT RUN           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch.............................NOT RUN           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeSourceDir.....................................NOT RUN           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeModules.......................................NOT RUN           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - WritePropertyFile....................................NOT RUN           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitProcessEnd........................NOT RUN           
+[main] 17:08:42.825 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryPushProcessEnd..........................NOT RUN           
+[main] 17:08:42.826 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 17:08:42.826 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - PIPELINE FINDING: PATCHED 
+[main] 17:08:42.826 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 17:08:42.826 [34mINFO [0;39m [36mf.i.s.r.pipeline.DefaultMainProcess[0;39m - Inspector is finished. The process will exit now. 
+[Total Repair Duration]: 5 min 27 sec
+Finished: SUCCESS

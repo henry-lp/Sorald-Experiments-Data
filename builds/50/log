@@ -1,0 +1,156 @@
+Started by user [8mha:////4Ai9zQLOzxo/hwuASvLQytU97x0VW4Uze5L2i10ui99aAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9jNS8okoAn1STsMAAAAA=[0mhenry
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/repairnator-sorald-experiment
+The following tools will be used : [Sorald]
+workspace for repairnator: /var/lib/jenkins/userContent/RepairnatorWorkspace
+jar location /var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar
+19:23:41,154 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+19:23:41,154 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [jar:file:/var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar!/logback-test.xml]
+19:23:41,177 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@53b32d7 - URL [jar:file:/var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar!/logback-test.xml] is not of type file
+19:23:41,364 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+19:23:41,367 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+19:23:41,372 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+19:23:41,378 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:23:41,453 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+19:23:41,456 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+19:23:41,486 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1413653265 - No compression will be used
+19:23:41,487 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1413653265 - Will use the pattern %d{yyyy-MM-dd}.%i.log for the active file
+19:23:41,490 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - The date pattern is 'yyyy-MM-dd' from file name pattern '%d{yyyy-MM-dd}.%i.log'.
+19:23:41,490 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - Roll-over at midnight.
+19:23:41,494 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - Setting initial period to Mon Jul 13 19:23:41 CEST 2020
+19:23:41,495 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+19:23:41,497 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:23:41,499 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /var/lib/jenkins/userContent/RepairnatorWorkspace/realtime.log
+19:23:41,499 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/var/lib/jenkins/userContent/RepairnatorWorkspace/realtime.log]
+19:23:41,500 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mongodb.driver] to WARN
+19:23:41,501 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.spirals.jtravis.helpers] to INFO
+19:23:41,501 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.spirals.repairnator] to INFO
+19:23:41,501 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.lille.nopol] to INFO
+19:23:41,501 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to OFF
+19:23:41,501 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to OFF
+19:23:41,501 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jgit] to OFF
+19:23:41,501 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+19:23:41,501 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+19:23:41,502 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+19:23:41,502 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+19:23:41,503 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1a968a59 - Registering current configuration as safe fallback point
+
+[main] 19:23:42.044 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitSerializerEngines[0;39m - Initialize file serializer engines. 
+[main] 19:23:42.047 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitSerializerEngines[0;39m - MongoDB won't be used for serialization. 
+[main] 19:23:42.047 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitNotifiers[0;39m - The email notifier engine won't be used. 
+Gitbranch develop
+[main] 19:23:42.081 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 19:23:42.081 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - PIPELINE STEPS 
+[main] 19:23:42.081 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 19:23:42.081 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CloneCheckoutBranchRepository 
+[main] 19:23:42.081 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryInitRepoToPush 
+[main] 19:23:42.081 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - Sorald 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CheckoutPatchedBuild 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - BuildProject 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - TestProject 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GatherTestInformation 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeSourceDir 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeModules 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - WritePropertyFile 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitProcessEnd 
+[main] 19:23:42.082 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryPushProcessEnd 
+[main] 19:23:42.083 [34mINFO [0;39m [36mf.i.s.r.p.s.CloneCheckoutBranchRepository[0;39m - Cloning repository https://github.com/eclipse/kura.git in the following directory: /var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-kura-develop_repo 
+[main] 19:24:17.033 [34mINFO [0;39m [36mf.i.s.r.p.s.p.GitRepositoryInitRepoToPush[0;39m - Repairnator is configured NOT to push. Step bypassed. 
+[main] 19:24:17.033 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Entrance in Sorald step... 
+[main] 19:24:17.037 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Repo: /var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-kura-develop_repo 
+[main] 19:24:17.037 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Try to repair rule 2095 
+[main] 19:24:17.265 [34mINFO [0;39m [36morg.reflections.Reflections[0;39m - Reflections took 213 ms to scan 1 urls, producing 3 keys and 35 values  
+[Repair Mode] : DEFAULT
+[main] 19:24:17.407 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 19:24:51.409 [1;31mERROR[0;39m [36mspoon.Launcher[0;39m - error: JDTCommentBuilder crashed with the error, some comments may be missing in the model: java.lang.RuntimeException: Invalid package name $ 
+[main] 19:24:52.599 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 2011 source files to be analyzed 
+[Report about progress of Java AST analyzer] 19:25:02.606 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 21/2011 files analyzed, current file: eclipse-kura-develop_repo/kura/org.eclipse.kura.net.admin/src/main/java/org/eclipse/kura/net/admin/monitor/WifiMonitorServiceImpl.java 
+[Report about progress of Java AST analyzer] 19:25:12.607 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 123/2011 files analyzed, current file: eclipse-kura-develop_repo/kura/org.eclipse.kura.linux.position/src/main/java/org/eclipse/kura/linux/position/NMEAParser.java 
+[Report about progress of Java AST analyzer] 19:25:22.608 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 302/2011 files analyzed, current file: eclipse-kura-develop_repo/kura/examples/org.eclipse.kura.example.serial.publisher/src/main/java/org/eclipse/kura/example/serial/publisher/ExampleSerialPublisher.java 
+[Report about progress of Java AST analyzer] 19:25:32.608 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 508/2011 files analyzed, current file: eclipse-kura-develop_repo/kura/org.eclipse.kura.linux.usb/src/main/java/org/eclipse/kura/linux/usb/UsbSerial.java 
+[Report about progress of Java AST analyzer] 19:25:42.609 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 728/2011 files analyzed, current file: eclipse-kura-develop_repo/kura/test/org.eclipse.kura.linux.net.test/src/main/java/org/eclipse/kura/linux/test/net/IPTablesTest.java 
+[Report about progress of Java AST analyzer] 19:25:52.609 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 1237/2011 files analyzed, current file: eclipse-kura-develop_repo/kura/org.eclipse.kura.core.net/src/main/java/org/eclipse/kura/core/net/NetworkConfiguration.java 
+[Report about progress of Java AST analyzer] 19:26:02.610 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 1542/2011 files analyzed, current file: eclipse-kura-develop_repo/kura/org.eclipse.kura.web2/src/main/java/org/eclipse/kura/web/server/GwtNetworkServiceImpl.java 
+[main] 19:26:12.488 [1;31mERROR[0;39m [36morg.sonar.java.ast.JavaAstScanner[0;39m - Unable to parse source file : 'eclipse-kura-develop_repo/kura/tools/archetype/example/src/main/resources/archetype-resources/__rootArtifactId__/src/main/java/KuraApp.java' 
+[main] 19:26:12.488 [1;31mERROR[0;39m [36morg.sonar.java.ast.JavaAstScanner[0;39m - Parse error at line 1 column 1:
+
+ 1: #set( $symbol_pound = '#' )
+    ^
+ 2: #set( $symbol_dollar = '$' )
+ 3: #set( $symbol_escape = '\' )
+ 4: /**
+ 5:  * Copyright (c) 2011, 2014 Eurotech and/or its affiliates
+ 6:  *
+ 7:  *  All rights reserved. This program and the accompanying materials
+ 8:  *  are made available under the terms of the Eclipse Public License v1.0
+ 9:  *  which accompanies this distribution, and is available at
+10:  *  http://www.eclipse.org/legal/epl-v10.html
+11:  *
+ 
+[Report about progress of Java AST analyzer] 19:26:12.610 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 1694/2011 files analyzed, current file: eclipse-kura-develop_repo/kura/org.eclipse.kura.linux.redhat.provider/src/main/java/org/eclipse/kura/internal/linux/net/config/NetInterfaceConfigSerializationServiceImpl.java 
+[Report about progress of Java AST analyzer] 19:26:22.610 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 1999/2011 files analyzed, current file: eclipse-kura-develop_repo/target-platform/jdk.dio-parent/src/dev/test/jdk/dio/gpio/GPIOPinConfigTest.java 
+[Report about progress of Java AST analyzer] 19:26:23.043 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 2011/2011 source files have been analyzed 
+[main] 19:26:24.937 [1;31mERROR[0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - Exception catch while executing steps:  
+java.lang.StringIndexOutOfBoundsException: String index out of range: -6
+	at java.lang.String.substring(String.java:1967)
+	at sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:57)
+	at sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)
+	at sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:114)
+	at sorald.processor.UnclosedResourcesProcessor.process(UnclosedResourcesProcessor.java:46)
+	at sorald.processor.UnclosedResourcesProcessor.process(UnclosedResourcesProcessor.java:21)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:169)
+	at spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:522)
+	at spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:177)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:169)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:142)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:299)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:57)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:177)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:169)
+	at spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:728)
+	at spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:177)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:169)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:142)
+	at spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:299)
+	at spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:57)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:177)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:169)
+	at spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:556)
+	at spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:177)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:169)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:142)
+	at spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:335)
+	at spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)
+	at spoon.reflect.visitor.CtScanner.scan(CtScanner.java:177)
+	at spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)
+	at spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:120)
+	at sorald.DefaultRepair.repair(DefaultRepair.java:72)
+	at sorald.Main.start(Main.java:191)
+	at sorald.Main.main(Main.java:201)
+	at fr.inria.spirals.repairnator.process.step.repair.Sorald.businessExecute(Sorald.java:65)
+	at fr.inria.spirals.repairnator.process.step.AbstractStep.execute(AbstractStep.java:336)
+	at fr.inria.spirals.repairnator.process.step.repair.AbstractRepairStep.execute(AbstractRepairStep.java:62)
+	at fr.inria.spirals.repairnator.process.step.AbstractStep.executeNextStep(AbstractStep.java:188)
+	at fr.inria.spirals.repairnator.process.step.AbstractStep.execute(AbstractStep.java:353)
+	at fr.inria.spirals.repairnator.process.step.AbstractStep.executeNextStep(AbstractStep.java:188)
+	at fr.inria.spirals.repairnator.process.step.AbstractStep.execute(AbstractStep.java:353)
+	at fr.inria.spirals.repairnator.process.inspectors.components.RunInspector4DefaultGit.run(RunInspector4DefaultGit.java:103)
+	at fr.inria.spirals.repairnator.process.inspectors.ProjectInspector.run(ProjectInspector.java:305)
+	at fr.inria.spirals.repairnator.pipeline.GithubMainProcess.run(GithubMainProcess.java:126)
+	at fr.inria.spirals.repairnator.pipeline.BranchLauncher.main(BranchLauncher.java:93)
+	at fr.inria.spirals.repairnator.pipeline.BranchLauncher.launch(BranchLauncher.java:99)
+	at fr.inria.spirals.repairnator.pipeline.Launcher.main(Launcher.java:62)
+[main] 19:26:24.962 [34mINFO [0;39m [36mf.i.s.r.pipeline.DefaultMainProcess[0;39m - Inspector is finished. The process will exit now. 
+[Total Repair Duration]: 2 min 44 sec
+Finished: SUCCESS

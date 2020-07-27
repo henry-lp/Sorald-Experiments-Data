@@ -1,0 +1,285 @@
+Started by user [8mha:////4Ai9zQLOzxo/hwuASvLQytU97x0VW4Uze5L2i10ui99aAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9jNS8okoAn1STsMAAAAA=[0mhenry
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/repairnator-sorald-experiment
+The following tools will be used : [Sorald]
+workspace for repairnator: /var/lib/jenkins/userContent/RepairnatorWorkspace
+jar location /var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar
+13:32:23,217 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:32:23,217 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [jar:file:/var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar!/logback-test.xml]
+13:32:23,233 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@53b32d7 - URL [jar:file:/var/lib/jenkins/userContent/RepairnatorSetup/repairnator.jar!/logback-test.xml] is not of type file
+13:32:23,368 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:32:23,371 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:32:23,376 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:32:23,382 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:32:23,436 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+13:32:23,438 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+13:32:23,457 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1413653265 - No compression will be used
+13:32:23,459 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1413653265 - Will use the pattern %d{yyyy-MM-dd}.%i.log for the active file
+13:32:23,462 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - The date pattern is 'yyyy-MM-dd' from file name pattern '%d{yyyy-MM-dd}.%i.log'.
+13:32:23,462 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - Roll-over at midnight.
+13:32:23,467 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - Setting initial period to Mon Jul 13 13:32:23 CEST 2020
+13:32:23,467 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@548e7350 - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+13:32:23,469 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:32:23,471 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /var/lib/jenkins/userContent/RepairnatorWorkspace/realtime.log
+13:32:23,471 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/var/lib/jenkins/userContent/RepairnatorWorkspace/realtime.log]
+13:32:23,473 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.mongodb.driver] to WARN
+13:32:23,473 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.spirals.jtravis.helpers] to INFO
+13:32:23,473 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.spirals.repairnator] to INFO
+13:32:23,473 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [fr.inria.lille.nopol] to INFO
+13:32:23,473 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache] to OFF
+13:32:23,473 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ch.qos.logback] to OFF
+13:32:23,473 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jgit] to OFF
+13:32:23,473 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+13:32:23,474 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:32:23,474 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+13:32:23,474 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:32:23,475 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1a968a59 - Registering current configuration as safe fallback point
+
+[main] 13:32:24.041 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitSerializerEngines[0;39m - Initialize file serializer engines. 
+[main] 13:32:24.046 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitSerializerEngines[0;39m - MongoDB won't be used for serialization. 
+[main] 13:32:24.046 [34mINFO [0;39m [36mf.i.s.r.p.DefaultInitNotifiers[0;39m - The email notifier engine won't be used. 
+Gitbranch master
+[main] 13:32:24.108 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 13:32:24.108 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - PIPELINE STEPS 
+[main] 13:32:24.108 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 13:32:24.109 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CloneCheckoutBranchRepository 
+[main] 13:32:24.109 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryInitRepoToPush 
+[main] 13:32:24.109 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - Sorald 
+[main] 13:32:24.109 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch 
+[main] 13:32:24.109 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CheckoutPatchedBuild 
+[main] 13:32:24.109 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - BuildProject 
+[main] 13:32:24.109 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - TestProject 
+[main] 13:32:24.110 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GatherTestInformation 
+[main] 13:32:24.110 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch 
+[main] 13:32:24.110 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeSourceDir 
+[main] 13:32:24.110 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeModules 
+[main] 13:32:24.111 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - WritePropertyFile 
+[main] 13:32:24.111 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitProcessEnd 
+[main] 13:32:24.111 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryPushProcessEnd 
+[main] 13:32:24.112 [34mINFO [0;39m [36mf.i.s.r.p.s.CloneCheckoutBranchRepository[0;39m - Cloning repository https://github.com/eclipse/eclipse.platform.ui.git in the following directory: /var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.ui-master_repo 
+[main] 13:33:26.938 [34mINFO [0;39m [36mf.i.s.r.p.s.p.GitRepositoryInitRepoToPush[0;39m - Repairnator is configured NOT to push. Step bypassed. 
+[main] 13:33:26.938 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Entrance in Sorald step... 
+[main] 13:33:26.944 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Repo: /var/lib/jenkins/userContent/RepairnatorWorkspace/eclipse-eclipse.platform.ui-master_repo 
+[main] 13:33:26.944 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Try to repair rule 3032 
+[main] 13:33:27.170 [34mINFO [0;39m [36morg.reflections.Reflections[0;39m - Reflections took 208 ms to scan 1 urls, producing 3 keys and 35 values  
+[Repair Mode] : SEGMENT
+[File Tree build time] : 136 ms
+[main] 13:33:27.465 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:33:31.725 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:33:34.566 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:33:34.644 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:33:37.146 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:33:39.609 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:33:39.737 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:33:41.661 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:33:43.970 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:33:44.087 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:33:45.702 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:33:47.571 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:33:47.654 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:33:48.715 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:33:50.081 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:33:50.147 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:33:54.398 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:33:56.934 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:33:57.214 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:33:59.393 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:01.204 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:01.501 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:02.703 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:03.840 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:03.925 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:04.470 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:05.088 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:05.108 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:06.423 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:07.442 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:07.488 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:08.806 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:09.846 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:09.890 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:11.113 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:12.118 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:12.177 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:13.640 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:14.777 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:14.842 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+Error while repairing, will ignore this segment
+[main] 13:34:15.297 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:16.637 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:18.047 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:18.112 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:19.020 [1;31mERROR[0;39m [36mspoon.Launcher[0;39m - error: JDTCommentBuilder crashed with the error, some comments may be missing in the model: java.lang.IndexOutOfBoundsException: Index: -1 
+[main] 13:34:19.037 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:19.943 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:19.979 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:21.169 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:22.068 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:22.101 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:23.256 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:24.318 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:24.369 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:25.790 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:27.017 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:27.060 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:28.315 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:29.351 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:29.401 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:31.001 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:32.283 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:32.361 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:33.012 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:33.723 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:33.741 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:34.574 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:35.467 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:35.494 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:36.666 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:37.841 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:37.891 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:38.838 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:40.103 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:40.170 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:41.268 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:42.232 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:42.279 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:43.480 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:44.651 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:44.702 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:45.826 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:46.733 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:46.767 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:48.742 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:49.992 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:50.049 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:50.926 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:51.850 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:51.885 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:52.964 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:54.017 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:54.057 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:55.596 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:56.928 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:56.989 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:34:58.459 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:34:59.829 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:34:59.885 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:00.945 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:02.113 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:02.159 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:02.910 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:03.693 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:03.721 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:04.557 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:05.583 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:05.618 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:06.562 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:07.715 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:07.769 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:09.139 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:10.335 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:10.377 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:12.146 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:13.471 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:13.532 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:14.279 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:15.112 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:15.142 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:16.056 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:16.811 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:16.839 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:17.369 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:18.024 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:18.046 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:18.972 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:20.067 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:20.110 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:21.176 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:22.267 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:22.317 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:23.631 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:25.002 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:25.052 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:26.237 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:27.233 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:27.275 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:28.413 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:29.419 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:29.457 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:30.690 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:31.942 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:32.001 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:33.341 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:34.584 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:34.640 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:36.687 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:38.313 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:38.403 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:40.668 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:41.948 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:42.003 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:42.633 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:43.316 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:43.339 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:43.638 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:44.148 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:44.159 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:45.395 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:46.561 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:46.613 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:47.782 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:48.709 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:48.752 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:49.621 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:50.449 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:50.476 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:51.152 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:51.996 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:52.031 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:52.496 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:53.061 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:53.076 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:54.376 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:55.469 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:55.515 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:56.733 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:57.814 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 100/100 source files have been analyzed 
+[main] 13:35:57.858 [34mINFO [0;39m [36mspoon.Launcher[0;39m - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html). 
+[main] 13:35:58.438 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 67 source files to be analyzed 
+[Report about progress of Java AST analyzer] 13:35:58.965 [34mINFO [0;39m [36mo.s.analyzer.commons.ProgressReport[0;39m - 67/67 source files have been analyzed 
+-----Number of fixes------
+GetClassLoaderProcessor: 1
+-----End of report------
+[Total repair time] : 151800 ms
+done
+[main] 13:35:58.987 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - Number of patches found: 54 
+[main] 13:35:58.994 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - The repository won't be forked. 
+[main] 13:35:58.994 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - The project has not been forked. The PR won't be created. 
+All patches : 54
+[main] 13:35:58.995 [34mINFO [0;39m [36mf.i.s.r.process.step.repair.Sorald[0;39m - The repository won't be forked. 
+[main] 13:35:58.995 [34mINFO [0;39m [36mf.i.s.r.p.s.p.GitRepositoryCommitPatch[0;39m - Repairnator is configured NOT to push. Step bypassed. 
+[main] 13:35:58.995 [1;31mERROR[0;39m [36mf.i.s.r.p.s.c.CheckoutPatchedBuild[0;39m - There is no patched build retrieved. This will stop now. 
+[main] 13:35:58.996 [34mINFO [0;39m [36mf.i.s.r.p.s.c.CheckoutPatchedBuild[0;39m -  
+[main] 13:35:59.759 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 13:35:59.759 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - PIPELINE EXECUTION SUMMARY 
+[main] 13:35:59.759 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 13:35:59.759 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CloneCheckoutBranchRepository........................SUCCESS [  62 s ] 
+[main] 13:35:59.759 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryInitRepoToPush..........................SKIPPED           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - Sorald...............................................SUCCESS [ 152 s ] 
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch.............................SKIPPED           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - CheckoutPatchedBuild.................................FAILURE [   0 s ] 
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - BuildProject.........................................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - TestProject..........................................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GatherTestInformation................................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitPatch.............................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeSourceDir.....................................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ComputeModules.......................................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - WritePropertyFile....................................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryCommitProcessEnd........................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - GitRepositoryPushProcessEnd..........................NOT RUN           
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - PIPELINE FINDING: PATCHED 
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.p.i.ProjectInspector[0;39m - ---------------------------------------------------------------------- 
+[main] 13:35:59.760 [34mINFO [0;39m [36mf.i.s.r.pipeline.DefaultMainProcess[0;39m - Inspector is finished. The process will exit now. 
+[Total Repair Duration]: 3 min 36 sec
+Finished: SUCCESS

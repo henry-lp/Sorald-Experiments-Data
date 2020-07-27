@@ -1,0 +1,1846 @@
+All Git projects
+Date 7 june 2020
+	Eclipse
+
+		https://github.com/eclipse/chemclipse
+			Branch: develop
+			Commit id: cbfd2117d0fd106683a40c5434d72974a7d904d1
+			Date: Jul 8, 2020 
+			Commiter: 
+			Source Files (SonarJava): 5269
+			Source Files (Bash): 8844
+			LOC: 499367
+			Detect with miner
+				2164 - MathOnFloatCheck=216
+				2095 - UnclosedResourcesCheck=54
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=34
+				2184 - CastArithmeticOperandCheck=14
+				3067 - SynchronizationOnGetClassCheck=0
+				3032 - GetClassLoaderCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+
+		Repair
+			DEFAULT 
+				2164 [Crashed] [Build id = 5]
+				2095 [Crashed] [Build id = 59]
+				4973 [Crashed] [Build id = 60]
+				2184 [Crashed] [Build id = 61]
+
+			SEGMENT [segment size = 100] [MaxFixes = All]
+				2164 [Build id = 1]
+					[File Tree build time] : 196 ms
+					[Total repair time] : 107000 ms
+					[Total Repair Duration]: 2 min 12 sec
+					Number of Fixes - MathOnFloatProcessor: 32
+				2095 [Build id = 2]
+					[File Tree build time] : 154 ms
+					[Total repair time] : 159134 ms
+					[Total Repair Duration]: 3 min 7 sec
+					Number of Fixes - UnclosedResourcesProcessor: 0
+				4973 [Build id = 3]
+					[File Tree build time] : 143 ms
+					[Total repair time] : 105908 ms
+					[Total Repair Duration]: 2 min 14 sec
+					Number of Fixes - UnclosedResourcesProcessor: 25
+				2184 [Build id = 4]
+					[File Tree build time] : 170 ms
+					[Total repair time] : 103111 ms
+					[Total Repair Duration]: 2 min 11 sec
+					Number of Fixes - CastArithmeticOperandProcessor: 8
+
+		https://github.com/eclipse/eclipse.platform.ui
+			Branch: develop
+			Commit id: daa91700a98526dd602063066c6aa844e7f2d656
+			Date: Jul 8, 2020 
+			Commiter: 
+			Source Files (SonarJava): 6067
+			Source Files (Bash): 8983
+			LOC: 1113881
+			Detect with miner
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=43
+				2164 - MathOnFloatCheck=29
+				2184 - CastArithmeticOperandCheck=25
+				3032 - GetClassLoaderCheck=7
+				2095 - UnclosedResourcesCheck=5
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+
+		Repair
+			DEFAULT 
+				4973 [Crashed] [Build id = 6]
+				2164 [Crashed] [Build id = 63]
+				2184 [Crashed] [Build id = 64]
+				3032 [Crashed] [Build id = 65]
+				2095 [Crashed] [Build id = 66]
+			SEGMENT [segment size = 100] [MaxFixes = All]
+				4973 [Build id = 7]
+					[File Tree build time] : 239 ms
+					[Total repair time] : 157025 ms
+					[Total Repair Duration]: 3 min 38 sec
+					Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 38
+				2164 [Build id = 8]
+					[File Tree build time] : 118 ms
+					[Total repair time] : 154309 ms
+					[Total Repair Duration]: 3 min 36 sec 
+					Number of Fixes - MathOnFloatProcessor: 6
+				2184 [Build id = 9]
+					[File Tree build time] : 127 ms
+					[Total repair time] : 175222 ms
+					[Total Repair Duration]: 3 min 57 sec 
+					Number of Fixes - CastArithmeticOperandProcessor: 22
+				3032 [Build id = 10]
+					[File Tree build time] : 136 ms
+					[Total repair time] : 151800 ms
+					[Total Repair Duration]: 3 min 36 sec
+					Number of Fixes - GetClassLoaderProcessor: 1
+				2095 [Build id = 11]
+					[File Tree build time] : 132 ms
+					[Total repair time] : 271592 ms
+					[Total Repair Duration]: 5 min 33 sec
+					Number of Fixes - UnclosedResourcesProcessor: 7
+
+		https://github.com/square/retrofit
+			Branch: master
+			Commit id: 65de04d1da61f9e8124956f6fff8902fc81d05e2
+			Date: Jul 8, 2020 
+			Commiter: 
+			Source Files (SonarJava): 283
+			Source Files (Bash): 403
+			LOC: 42621
+			CI time: https://github.com/square/retrofit/actions/runs/130969228 - 8m 25s 
+
+			Detect with miner
+				2164 - MathOnFloatCheck=6
+				3032 - GetClassLoaderCheck=2
+				3067 - SynchronizationOnGetClassCheck=0
+				2184 - CastArithmeticOperandCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2095 - UnclosedResourcesCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			Repair
+				DEFAULT
+					2164 [Crashed] [Build id = 13]
+					3032 [Crashed] [Build id = 67]
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2164 [Build id = 14]
+						[File Tree build time] : 14 ms
+						[Total repair time] : 20110 ms
+						[Total Repair Duration]: 26 sec
+						Number of Fixes - MathOnFloatProcessor: 4
+					3032 [Build id = 15]
+						[File Tree build time] : 10 ms
+						[Total repair time] : 19199 ms
+						[Total Repair Duration]: 28 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+
+		https://github.com/square/okhttp 
+			Branch: master
+			Commit id: c4cbb57a46c4158a58d992b8bc4689ed5fd437ad
+			Date: Jul 6, 2020
+			Commiter: 
+			Source Files (SonarJava): 283
+			Source Files (Bash): 529
+			LOC: 52440
+			CI time: https://github.com/square/okhttp/commit/d2c5a74defb171fecac9626fb4f6e9048e0df645
+				https://github.com/square/okhttp/runs/877200608
+					4s
+				https://github.com/square/okhttp/runs/877200584
+					2m 22s
+				https://app.circleci.com/pipelines/github/square/okhttp/3643/workflows/6a0ed2dc-b293-4382-a283-d6898b6fe3e0/jobs/15873
+					7m 20s
+				https://app.circleci.com/pipelines/github/square/okhttp/3643/workflows/6a0ed2dc-b293-4382-a283-d6898b6fe3e0/jobs/15870
+					1m 30s
+				https://app.circleci.com/pipelines/github/square/okhttp/3643/workflows/6a0ed2dc-b293-4382-a283-d6898b6fe3e0/jobs/15869
+					4m 33s 
+				https://app.circleci.com/pipelines/github/square/okhttp/3643/workflows/6a0ed2dc-b293-4382-a283-d6898b6fe3e0/jobs/15874
+					1m 6s
+				https://app.circleci.com/pipelines/github/square/okhttp/3643/workflows/6a0ed2dc-b293-4382-a283-d6898b6fe3e0/jobs/15875
+					4m 30s
+				https://app.circleci.com/pipelines/github/square/okhttp/3643/workflows/6a0ed2dc-b293-4382-a283-d6898b6fe3e0/jobs/15872
+					3m 19s
+				https://app.circleci.com/pipelines/github/square/okhttp/3636/workflows/832d7042-1191-4ad6-9110-656b5e0b148a/jobs/15825
+					3m 39s
+				https://app.circleci.com/jobs/github/square/okhttp/15876
+					2m 36s
+				https://app.circleci.com/pipelines/github/square/okhttp/3643/workflows/6a0ed2dc-b293-4382-a283-d6898b6fe3e0/jobs/15877
+					2m 39s
+				https://app.circleci.com/pipelines/github/square/okhttp/3643/workflows/6a0ed2dc-b293-4382-a283-d6898b6fe3e0/jobs/15871
+					2m 45s
+				Longest
+					7m 20s
+
+			Detect with miner
+				2095 - UnclosedResourcesCheck=5
+				2164 - MathOnFloatCheck=5
+				2184 - CastArithmeticOperandCheck=3
+				3067 - SynchronizationOnGetClassCheck=0
+				3032 - GetClassLoaderCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			Repair
+				DEFAULT
+					2095 [Crashed] [Build id = 17]
+					2164 [Crashed] [Build id = 68]
+					2184 [Crashed] [Build id = 69]
+				SEGMENT [segment size = 100] [MaxFixes = 2000]	
+					2095 [Build id = 18]
+						[File Tree build time] : 29 ms
+						[Total repair time] : 38827 ms
+						[Total Repair Duration]: 1 min 1 sec
+						Number of Fixes - UnclosedResourcesProcessor: 0
+					2164 [Build id = 19]
+						[File Tree build time] : 20 ms
+						[Total repair time] : 26334 ms
+						[Total Repair Duration]: 59 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					2184 [Build id = 20]
+						[File Tree build time] : 21 ms
+						[Total repair time] : 25158 ms
+						[Total Repair Duration]: 47 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 1
+
+		https://github.com/spring-projects/spring-boot
+			Branch: master
+			Commit id: 6b7640ba2e6697a25d2f3846c39d0f3e35950b45
+			Date: Jul 8, 2020 
+			Commiter: 
+			Source Files (SonarJava): 5387
+			Source Files (Bash): 6746
+			LOC: 537856
+			CI time: https://github.com/spring-projects/spring-boot/commit/42817224e1ace9d3cca0090843358dc43399b5bb
+				https://ci.spring.io/builds/123146
+					22m 0s
+				https://ci.spring.io/builds/123147
+					6m 5s
+				https://ci.spring.io/builds/123148
+					8m 23s
+				longest
+					22m 0s
+
+			Detect with miner
+				3032 - GetClassLoaderCheck=131
+				2095 - UnclosedResourcesCheck=67
+				2164 - MathOnFloatCheck=8
+				2184 - CastArithmeticOperandCheck=5
+				2272 - IteratorNextExceptionCheck=2
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+			Repair
+				DEFAULT
+					3032 [Crashed] [Build id = 21]
+					2095 [Crashed] [Build id = 70]
+					2164 [Crashed] [Build id = 71]
+					2184 [Crashed] [Build id = 72]
+					2272 [Crashed] [Build id = 73]
+					4973 [Crashed] [Build id = 74]
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					3032 [Build id = 22]
+						[File Tree build time] : 117 ms
+						[Total repair time] : 121888 ms
+						[Total Repair Duration]: 2 min 46 sec
+						Number of Fixes - GetClassLoaderProcessor: 9
+					2095 [Build id = 23]
+						[File Tree build time] : 134 ms
+						[Total repair time] : 167277 ms
+						[Total Repair Duration]: 3 min 35 sec
+						Number of Fixes - UnclosedResourcesProcessor: 38
+					2164 [Build id = 24]
+						[File Tree build time] : 122 ms
+						[Total repair time] : 113859 ms
+						[Total Repair Duration]: 2 min 36 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					2184 [Build id = 25]
+						[File Tree build time] : 110 ms
+						[Total repair time] : 118394 ms
+						[Total Repair Duration]: 2 min 45 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 2
+					2272 [Build id = 26]
+						[File Tree build time] : 96 ms
+						[Total repair time] : 109952 ms
+						[Total Repair Duration]: 2 min 28 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 2
+					4973 [Build id = 27]
+						[File Tree build time] : 98 ms
+						[Total repair time] : 117004 ms
+						[Total Repair Duration]: 2 min 41 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 1
+
+		https://github.com/eclipse/rdf4j
+			Branch: master
+			Commit id: 8e7fce59f300dbae5ec3475359dcba4fd3133697
+			Date: Jul 3, 2020 
+			Commiter: 
+			Source Files (SonarJava): 3094
+			Source Files (Bash): 9148
+			LOC: 405861
+			CI time: - https://github.com/eclipse/rdf4j/commit/76fc808f2cb93b89f516728b920bbd97132d955b
+				https://github.com/eclipse/rdf4j/runs/884013017
+					36m 38s
+				https://github.com/eclipse/rdf4j/runs/884013031
+					23s 
+				https://github.com/eclipse/rdf4j/runs/884013023
+					43m 22s
+				Total
+					80m 20s
+				Longest
+					43m 22s
+			Detect with miner
+				3032 - GetClassLoaderCheck=65
+				2184 - CastArithmeticOperandCheck=15
+				2095 - UnclosedResourcesCheck=12
+				2164 - MathOnFloatCheck=11
+				2272 - IteratorNextExceptionCheck=9
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=4
+				2111 - BigDecimalDoubleConstructorCheck=2
+				1656 - SelfAssignementCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+			Repair
+				DEFAULT
+					3032 [Crashed] [Build id = 28] [GC overhead limit]
+					2184 [Crashed] [GC overhead limit]
+					2095 [Crashed] [GC overhead limit]
+					2164 [Crashed] [GC overhead limit]
+					2272 [Crashed] [GC overhead limit]
+					4973 [Crashed] [GC overhead limit]
+					2111 [Crashed] [GC overhead limit]
+					1656 [Crashed] [GC overhead limit]
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					3032 [Build id = 29]
+						[File Tree build time] : 116
+						[Total repair time] : 88997 ms
+						[Total Repair Duration]: 1 min 47 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2184 [Build id = 30]
+						[File Tree build time] : 117 ms
+						[Total repair time] : 85231 ms
+						[Total Repair Duration]: 1 min 46 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 8
+					2095 [Build id = 31]
+						[File Tree build time] : 139 ms
+						[Total repair time] : 147452 ms
+						[Total Repair Duration]: 2 min 50 sec
+						Number of Fixes - UnclosedResourcesProcessor: 11
+					2164 [Build id = 32]
+						[File Tree build time] : 100 ms
+						[Total repair time] : 85760 ms
+						[Total Repair Duration]: 1 min 50 sec
+						Number of Fixes - MathOnFloatProcessor: 4
+					2272 [Build id = 33]
+						[File Tree build time] : 110 ms
+						[Total repair time] : 89630 ms
+						[Total Repair Duration]: 1 min 50 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 9
+					4973 [Build id = 34]
+						[File Tree build time] : 109 ms
+						[Total repair time] : 82981 ms
+						[Total Repair Duration]: 1 min 46 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 4
+					2111 [Build id = 35]
+						[File Tree build time] : 123 ms
+						[Total repair time] : 96183 ms
+						[Total Repair Duration]: 1 min 57 sec
+						Number of Fixes - BigDecimalDoubleConstructorProcessor: 2
+					1656 [Build id = 36]
+						[File Tree build time] : 301 ms
+						[Total repair time] : 88954 ms
+						[Total Repair Duration]: 1 min 53 sec
+						Number of Fixes - SelfAssignementProcessor: 1
+
+
+		https://github.com/eclipse/eclipse-collections
+			Branch: master
+			Commit id: 852f5e5abb7cff3589a09061e6c4f75f643a55b5
+			Date: Jul 8, 2020 
+			Commiter: 
+			Source Files (SonarJava): 2589
+			Source Files (Bash): 3192
+			LOC: 403941
+			Detect with miner
+				2164 - MathOnFloatCheck=38
+				2272 - IteratorNextExceptionCheck=14
+				2184 - CastArithmeticOperandCheck=5
+				3032 - GetClassLoaderCheck=3
+				2095 - UnclosedResourcesCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			CI time: - https://github.com/eclipse/eclipse-collections/commit/63be239538ff2676680ff57294e5aa08ce03b602 
+				https://github.com/eclipse/eclipse-collections/runs/879356671
+					8m 40s
+				https://github.com/eclipse/eclipse-collections/runs/879356673
+					10m 53s
+				https://github.com/eclipse/eclipse-collections/runs/879356680
+					47m 20s
+				https://github.com/eclipse/eclipse-collections/runs/879356521
+					5m 20s
+				https://github.com/eclipse/eclipse-collections/runs/879356580
+					3m 47s
+				https://github.com/eclipse/eclipse-collections/runs/879356610
+					12m 36s
+				https://github.com/eclipse/eclipse-collections/runs/879356636
+					10m 21s
+				https://github.com/eclipse/eclipse-collections/runs/879356649
+					9m 46s
+				https://teamcity.jetbrains.com/viewLog.html?buildId=3028458&buildTypeId=OpenSourceProjects_EclipseCollections_CheckStyle
+					20m 23s
+				https://teamcity.jetbrains.com/viewLog.html?buildId=3028481&buildTypeId=OpenSourceProjects_EclipseCollections_CompileTest
+					23m 3s	
+				https://teamcity.jetbrains.com/viewLog.html?buildId=3028457&buildTypeId=OpenSourceProjects_EclipseCollections_Inspections1Severe
+					10m 18s	
+				https://teamcity.jetbrains.com/viewLog.html?buildId=3028456&buildTypeId=OpenSourceProjects_EclipseCollections_Inspections2InconsistentConstructs
+					13m 41s	
+				https://teamcity.jetbrains.com/viewLog.html?buildId=3028456&buildTypeId=OpenSourceProjects_EclipseCollections_Inspections2InconsistentConstructs
+					13m 41s	
+				https://teamcity.jetbrains.com/
+				viewLog.html?buildId=3028454&buildTypeId=OpenSourceProjects_EclipseCollections_Inspections3ConsistentStyle
+				https://github.com/eclipse/eclipse-collections/runs/879356957
+					5m 13s
+				https://teamcity.jetbrains.com/viewLog.html?buildId=3028455&buildTypeId=OpenSourceProjects_EclipseCollections_Inspections4NoAutoFix
+					9m 40s
+				Total
+					204m 24s
+				Longest 
+					23m 3s
+			Repair
+				DEFAULT 
+					2164 [crashed] [Build id = 39]
+						GC overhead exceeded
+					2272 [crashed] [Build id = 39]
+					2184 [crashed] [Build id = 39]
+					3032 [crashed] [Build id = 39]
+					2095 [crashed] [Build id = 39]
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2164 [Build id = 40]
+						[File Tree build time] : 34 ms
+						[Total repair time] : 111511 ms
+						[Total Repair Duration]: 4 min 2 sec
+						Number of Fixes - UnclosedResourcesProcessor: 1
+					2272 [Build id = 42]
+						[File Tree build time] : 36 ms
+						[Total repair time] : 98445 ms
+						[Total Repair Duration]: 1 min 47 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 14
+					2184 [Build id = 43]
+						[File Tree build time] : 38 ms
+						[Total repair time] : 103162 ms
+						[Total Repair Duration]: 1 min 53 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 4
+					3032 [Build id = 44]
+						[File Tree build time] : 77 ms
+						[Total repair time] : 95922 ms
+						[Total Repair Duration]: 1 min 44 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 45]
+						[File Tree build time] : 67 ms
+						[Total repair time] : 125260 ms
+						[Total Repair Duration]: 2 min 15 sec 
+						Number of Fixes - UnclosedResourcesProcessor: 1
+
+		https://github.com/eclipse/kura
+			Commit id: a0cd9d7683a02fef4b4f888eff61d145ecae6998
+			Date: Jul 8, 2020 
+			Commiter: 
+			Source Files (SonarJava): 2011
+			Source Files (Bash): 4235
+			LOC: 329468
+			Detect with miner	
+				2164 - MathOnFloatCheck=148
+				2095 - UnclosedResourcesCheck=88
+				2184 - CastArithmeticOperandCheck=9
+				3032 - GetClassLoaderCheck=4
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+			CI time:
+				https://travis-ci.org/github/eclipse/kura/builds/710646723
+					8m 18s
+					13m 47s
+				Longest
+					13m 47s
+			Repair
+				DEFAULT 
+					2164 [Build id = 49]
+						[Total repair time] : 71651 ms
+						[Total Repair Duration]: 1 min 46 sec
+						Number of Fixes - MathOnFloatProcessor: 65
+					2095 [Build id = 50] [Crashed]
+					2184 [Build id = 51] [Crashed]
+					3032 [Build id = 52] [Crashed]
+					4973 [Build id = 53]
+						[Total repair time] : 71215 ms
+						[Total Repair Duration]: 1 min 39 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 1
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2164 [Build id = 54]
+						[File Tree build time] : 73 ms
+						[Total repair time] : 69719 ms
+						[Total Repair Duration]: 1 min 37 sec
+						Number of Fixes - MathOnFloatProcessor: 65
+					2095 [Build id = 55]
+						[File Tree build time] : 136 ms
+						[Total repair time] : 133449 ms
+						[Total Repair Duration]: 2 min 42 sec
+						Number of Fixes - UnclosedResourcesProcessor: 41
+					2184 [Build id = 56]
+						[File Tree build time] : 75 ms
+						[Total repair time] : 70695 ms
+						[Total Repair Duration]: 1 min 48 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 2
+					3032 [Build id = 57]
+						[File Tree build time] : 73 ms
+						[Total repair time] : 72018 ms
+						[Total Repair Duration]: 1 min 47 sec
+						Number of Fixes - GetClassLoaderProcessor: 1
+					4973 [Build id = 58]
+						[File Tree build time] : 74 ms
+						[Total repair time] : 73153 ms
+						[Total Repair Duration]: 1 min 47 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 1
+
+		https://github.com/eclipse/californium
+			Branch: master
+			Commit id: 764216199719dcd596481cc3a937124e2b18d88a
+			Date: Jul 8, 2020 
+			Commiter: 
+			Source Files (SonarJava): 768
+			Source Files (Bash): 1015
+			LOC: 175782
+			Detect with miner	
+				2184 - CastArithmeticOperandCheck=38
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=4
+				3032 - GetClassLoaderCheck=3
+				2095 - UnclosedResourcesCheck=3
+				2116 - ArrayHashCodeAndToStringCheck=2
+				2164 - MathOnFloatCheck=2
+				3067 - SynchronizationOnGetClassCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+			Repair
+				DEFAULT 
+					2184 [Crashed] [Build id = 77]
+					4973 [[Build id = 78]
+						[Total repair time] : 40039 ms
+						[Total Repair Duration]: 48 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 4
+					3032 [Build id = 79]
+						[Total repair time] : 39964 ms
+						[Total Repair Duration]: 48 sec
+						Number of Fixes - GetClassLoaderProcessor: 1
+					2095 [Build id = 80]
+						[Total repair time] : 77530 ms
+						[Total Repair Duration]: 1 min 27 sec
+						Number of Fixes - UnclosedResourcesProcessor: 3
+					2116 [Build id = 81]
+						[Total repair time] : 39026 ms
+						[Total Repair Duration]: 59 sec
+						Number of Fixes - ArrayHashCodeAndToStringProcessor: 2
+					2164 [Build id = 82]
+						[Total repair time] : 40102 ms
+						[Total Repair Duration]: 52 sec 
+						Number of Fixes - MathOnFloatProcessor: 1
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2184 [Build id = 83]
+						[File Tree build time] : 27 ms
+						[Total repair time] : 45308 ms
+						[Total Repair Duration]: 53 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 4
+					4973 [Build id = 84]
+						[File Tree build time] : 23 ms
+						[Total repair time] : 39380 ms
+						[Total Repair Duration]: 50 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 4
+					3032 [Build id = 85]
+						[File Tree build time] : 24 ms
+						[Total repair time] : 41664 ms
+						[Total Repair Duration]: 56 sec
+						Number of Fixes - GetClassLoaderProcessor: 1
+					2095 [Build id = 86]
+						[File Tree build time] : 19 ms
+						[Total repair time] : 81825 ms
+						[Total Repair Duration]: 1 min 35 sec
+						Number of Fixes - UnclosedResourcesProcessor: 3
+					2116 [Build id = 87]
+						[File Tree build time] : 16 ms
+						[Total repair time] : 41317 ms
+						[Total Repair Duration]: 49 sec
+						Number of Fixes - ArrayHashCodeAndToStringProcessor: 2
+					2164 [Build id = 88]
+						[File Tree build time] : 18 ms
+						[Total repair time] : 42171 ms
+						[Total Repair Duration]: 55 sec
+						Number of Fixes - MathOnFloatProcessor: 1
+
+		https://github.com/eclipse/vorto
+			Branch: development
+			Commit id: e89f149319f230852398efd43263df93e533a716
+			Date: Jul 9, 2020 
+			Commiter: 
+			Source Files (SonarJava): 812
+			Source Files (Bash): 1870
+			LOC: 80385
+			Detect with miner	
+				3032 - GetClassLoaderCheck=56
+				2184 - CastArithmeticOperandCheck=1
+				2095 - UnclosedResourcesCheck=2
+				2272 - IteratorNextExceptionCheck=1
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				2164 - MathOnFloatCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+			CI time - https://travis-ci.org/github/eclipse/vorto/builds/710272952
+				49m 12s
+			Repair
+				DEFAULT 
+					3032 [Crashed] [Build id = 89]
+					2184 [Build id = 90]
+						[Total repair time] : 27281 ms
+						[Total Repair Duration]: 50 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 1
+					2095 [Build id = 91]
+						[Total repair time] : 33700 ms
+						[Total Repair Duration]: 50 sec
+						Number of Fixes - UnclosedResourcesProcessor: 2
+					2272 [Build id = 92]
+						[Total repair time] : 31386 ms
+						[Total Repair Duration]: 50 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 1
+					4973 [Build id = 93]
+						[Total repair time] : 25085 ms
+						[Total Repair Duration]: 40 ms
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 1
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					3032 [Build id = 94]
+						[File Tree build time] : 50 ms
+						[Total repair time] : 29065 ms 
+						[Total Repair Duration]: 45 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2184 [Build id = 95]
+						[File Tree build time] : 50 ms
+						[Total repair time] : 27139 ms
+						[Total Repair Duration]: 41 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 1
+					2095 [Build id = 96]
+						[File Tree build time] : 60 ms
+						[Total repair time] : 38348 ms
+						[Total Repair Duration]: 56 sec
+						Number of Fixes - UnclosedResourcesProcessor: 2
+					2272 [Build id = 97]
+						[File Tree build time] : 31 ms
+						[Total repair time] : 28762 ms
+						[Total Repair Duration]: 52 ms
+						Number of Fixes - IteratorNextExceptionProcessor: 1
+					4973 [Build id = 98]
+						[File Tree build time] : 50 ms
+						[Total repair time] : 28021 ms
+						[Total Repair Duration]: 44 ms
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 1
+
+		https://github.com/eclipse/kapua
+			Commit id: e89f149319f230852398efd43263df93e533a716
+			Date: Jul 9, 2020 
+			Commiter: 
+			Source Files (SonarJava): 812
+			Source Files (Bash): 1870
+			LOC: 80385
+			CI time: https://travis-ci.org/github/eclipse/kapua/builds/709927724
+				3 hrs 28 min 20 sec
+			Detect with miner	
+				2095 - UnclosedResourcesCheck=9
+				3032 - GetClassLoaderCheck=2
+				2184 - CastArithmeticOperandCheck=2
+				1860 - SynchronizationOnStringOrBoxedCheck=2
+				2164 - MathOnFloatCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			Repair
+				DEFAULT  
+					2095 [Build id = 99]
+						[Total repair time] : 92768 ms
+						[Total Repair Duration]: 1 min 48 sec
+						Number of Fixes - UnclosedResourcesProcessor: 0
+					3032 [Build id = 100]
+						[Total repair time] : 59264 ms
+						[Total Repair Duration]: 1 min 15 sec
+						Number of Fixes - GetClassLoaderProcessor: 1
+					2184 [Build id = 101]
+						[Total repair time] : 58227 ms
+						[Total Repair Duration]: 1 min 13 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 2
+					1860 [Build id = 102]
+						[Total repair time] : 56557 ms
+						[Total Repair Duration]: 1 min 11 sec
+						Number of Fixes - SynchronizationOnStringOrBoxedProcessor: 0
+					2164 [Build id = 103]
+						[Total repair time] : 56338 ms
+						[Total Repair Duration]: 1 min 9 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2095 [Build id = 104]
+						[File Tree build time] : 104 ms
+						[Total repair time] : 99206 ms
+						[Total Repair Duration]: 1 min 53 sec
+						Number of Fixes - UnclosedResourcesProcessor: 0
+					3032 [Build id = 105]
+						[File Tree build time] : 90 ms
+						[Total repair time] : 60285 ms
+						[Total Repair Duration]: 1 min 14 sec
+						Number of Fixes - GetClassLoaderProcessor: 1
+					2184 [Build id = 106]
+						[File Tree build time] : 83 ms
+						[Total repair time] : 65012 ms
+						[Total Repair Duration]: 1 min 18 sec 
+						Number of Fixes - CastArithmeticOperandProcessor: 2
+					1860 [Build id = 107]
+						[File Tree build time] : 90 ms
+						[Total repair time] : 68134 ms
+						[Total Repair Duration]: 1 min 21 sec
+						Number of Fixes - SynchronizationOnStringOrBoxedProcessor: 0
+					2164 [Build id = 108]
+						[File Tree build time] : 83 ms
+						[Total repair time] : 62889 ms
+						[Total Repair Duration]: 1 min 16 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+
+		https://github.com/eclipse/jgit
+			Commit id: 9b033a1b6da1193dbedca80c217af748ae546629
+			Date: Jul 8, 2020  
+			Files (SonarJava): 1600
+			Source Files (Bash): 2487
+			LOC: 375367
+			Detect with miner	
+				2184 - CastArithmeticOperandCheck=19
+				2095 - UnclosedResourcesCheck=18
+				2164 - MathOnFloatCheck=6
+				3032 - GetClassLoaderCheck=5
+				2272 - IteratorNextExceptionCheck=4
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=3
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+			Repair
+				DEFAULT 
+					2184 [Crashed] [Build id = 109]
+					2095 [Crashed] [Build id = 110]
+					2164 [Build id = 111]
+						[Total repair time] : 65858 ms
+						[Total Repair Duration]: 1 min 23 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					3032 [Build id = 112]
+						[Total repair time] : 69585 ms
+						[Total Repair Duration]: 1 min 31 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2272 [Build id = 113]
+						[Total repair time] : 66561 ms
+						[Total Repair Duration]: 1 min 33 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 4
+					4973 [Build id = 114]
+						[Total repair time] : 64790 ms
+						[Total Repair Duration]: 1 min 24 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 3
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2184 [Build id = 115]
+						[File Tree build time] : 42 ms
+						[Total repair time] : 79512 ms
+						[Total Repair Duration]: 1 min 37 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 6
+					2095 [Build id = 116]
+						[File Tree build time] : 38 ms
+						[Total repair time] : 140834 ms
+						[Total Repair Duration]: 2 min 37 sec
+						Number of Fixes - UnclosedResourcesProcessor: 15
+					2164 [Build id = 117]
+						[File Tree build time] : 39 ms
+						[Total repair time] : 65501 ms
+						[Total Repair Duration]: 1 min 21 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					3032 [Build id = 118]
+						[File Tree build time] : 35 ms 
+						[Total repair time] : 70661 ms
+						[Total Repair Duration]: 1 min 31 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2272 [Build id = 119]
+						[File Tree build time] : 31 ms
+						[Total repair time] : 72662 ms
+						[Total Repair Duration]: 1 min 31 sec 
+						Number of Fixes - IteratorNextExceptionProcessor: 4
+					4973 [Build id = ]
+						[File Tree build time] : 46 ms
+						[Total repair time] : 71949 ms
+						[Total Repair Duration]: 1 min 29 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 3
+
+		https://github.com/eclipse/elk
+			Branch: master
+			Commit id: 4bab504c10535ab39081dfbcfb4ad11f405bc6e4
+			Date: Jul 8, 2020  
+			Commiter: httpscds
+			Source Files (SonarJava): 1040
+			Source Files (Bash): 1943
+			LOC: 426659
+			Detect with miner	
+				2164 - MathOnFloatCheck=56
+				2184 - CastArithmeticOperandCheck=6
+				3032 - GetClassLoaderCheck=4
+				2095 - UnclosedResourcesCheck=3
+				1656 - SelfAssignementCheck=1
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+			CI time - https://github.com/eclipse/elk/pull/667/commits/cc67429824fa5eb11c1f8f451935748603707c2d
+				https://github.com/eclipse/elk/runs/887413844
+					8m 15s
+				https://github.com/eclipse/elk/runs/887413853
+					8m 34s
+				https://github.com/eclipse/elk/runs/887413878
+					3m 50s
+				https://github.com/eclipse/elk/runs/887413862
+					10m 3s
+				Total
+					30m 42s
+				Longest
+					10m 3s
+			Repair
+				DEFAULT  
+					2164 [Build id = 121]
+						[Total repair time] : 66468 ms
+						[Total Repair Duration]: 1 min 16 sec
+						Number of Fixes - MathOnFloatProcessor: 21
+					2184 [Build id = 122]
+						[Total repair time] : 77240 ms
+						[Total Repair Duration]: 1 min 26 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 6
+					3032 [Build id = 123]
+						[Total repair time] : 71432 ms
+						[Total Repair Duration]: 1 min 21 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 124]
+						[Total repair time] : 174282 ms
+						[Total Repair Duration]: 3 min 4 sec
+						Number of Fixes - UnclosedResourcesProcessor: 3
+					1656 [Build id = 125]
+						[Total repair time] : 66262 ms
+						[Total Repair Duration]: 1 min 15 sec
+						Number of Fixes - SelfAssignementProcessor: 1
+					4973 [Build id = 126]
+						[Total repair time] : 66840 ms
+						[Total Repair Duration]: 1 min 17 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 1
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2164 [Build id = 127]
+						[File Tree build time] : 40 ms
+						[Total repair time] : 63098 ms
+						[Total Repair Duration]: 1 min 12 sec
+						Number of Fixes - MathOnFloatProcessor: 21
+					2184 [Build id = 128]
+						[File Tree build time] : 39 ms
+						[Total repair time] : 66017 ms
+						[Total Repair Duration]: 1 min 17 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 6
+					3032 [Build id = 129]
+						[File Tree build time] : 67 ms
+						[Total repair time] : 66427 ms
+						[Total Repair Duration]: 1 min 15 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 130]
+						[File Tree build time] : 31 ms
+						[Total repair time] : 169670 ms
+						[Total Repair Duration]:  2 min 58 sec
+						Number of Fixes - UnclosedResourcesProcessor: 3
+					1656 [Build id = 131]
+						[File Tree build time] : 44 ms
+						[Total repair time] : 65092 ms
+						[Total Repair Duration]: 1 min 16 sec
+						Number of Fixes - SelfAssignementProcessor: 1
+					4973 [Build id = 132]
+						[File Tree build time] : 25 ms
+						[Total repair time] : 62668 ms
+						[Total Repair Duration]: 1 min 11 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 1
+
+		https://github.com/eclipse/eclipse.platform.swt
+			Commit id: 4bab504c10535ab39081dfbcfb4ad11f405bc6e4
+			Date: Jul 7, 2020 
+			Commiter: 
+			Source Files (SonarJava): 2191
+			Source Files (Bash): 3262
+			LOC: 615674
+			Detect with miner	
+				2164 - MathOnFloatCheck=530
+				2184 - CastArithmeticOperandCheck=68
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=33
+				3032 - GetClassLoaderCheck=12
+				2095 - UnclosedResourcesCheck=5
+				2116 - ArrayHashCodeAndToStringCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+			Repair
+				DEFAULT 
+					2164 [Crashed] [Build id = 133]
+					2184 [Crashed] [Build id = 134]
+					4973 [Crashed] [Build id = 135]
+					3032 [Build id = 136]
+						[Total repair time] : 83779 ms
+						[Total Repair Duration]: 2 min 35 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 137]
+						[Total repair time] : 241744 ms
+						[Total Repair Duration]: 5 min 13 sec
+						Number of Fixes - UnclosedResourcesProcessor: 5
+					2116 [Build id = 138]
+						[Total repair time] : 83210 ms
+						[Total Repair Duration]: 2 min 29 sec 
+						Number of Fixes - ArrayHashCodeAndToStringProcessor: 1
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2164 [Build id = 139]
+						[File Tree build time] : 90 ms
+						[Total repair time] : 95463 ms
+						[Total Repair Duration]: 2 min 43 sec 
+						Number of Fixes - MathOnFloatProcessor: 26
+					2184 [Build id = 140]
+						[File Tree build time] : 86 ms
+						[Total repair time] : 101834 ms
+						[Total Repair Duration]: 3 min 4 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 7
+					4973 [Build id = 141]
+						[File Tree build time] : 76 ms
+						[Total repair time] : 94130 ms
+						[Total Repair Duration]: 2 min 51 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 19
+					3032 [Build id = 142]
+						[File Tree build time] : 123 ms
+						[Total repair time] : 93509 ms
+						[Total Repair Duration]: 2 min 40 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 143]
+						[File Tree build time] : 90 ms
+						[Total repair time] : 259868 ms
+						[Total Repair Duration]: 5 min 27 sec
+						Number of Fixes - UnclosedResourcesProcessor: 5
+					2116 [Build id = 144]
+						[File Tree build time] : 68 ms
+						[Total repair time] : 97980 ms
+						[Total Repair Duration]: 2 min 51 sec 
+						Number of Fixes - ArrayHashCodeAndToStringProcessor: 1
+
+		https://github.com/eclipse/nebula
+			Branch: master
+			Commit id: 2c3b8b2bc3b2b6ddc6d72deb889601a4ece6a7f2
+			Date: Jul 7, 2020 
+			Commiter: 
+			Source Files (SonarJava): 1671
+			Source Files (Bash): 4670
+			LOC: 357406
+			Detect with miner	
+				2164 - MathOnFloatCheck=189
+				2184 - CastArithmeticOperandCheck=38
+				2095 - UnclosedResourcesCheck=17
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=9
+				3032 - GetClassLoaderCheck=8
+				1860 - SynchronizationOnStringOrBoxedCheck=1
+				2272 - IteratorNextExceptionCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+			CI time - https://github.com/eclipse/nebula/commit/4fdd330e28c44c5343d7a7ddeab6cea67e2f8825
+				https://ci.eclipse.org/nebula/job/nebula.incubation.github/291/
+					1m 41s
+				https://ci.eclipse.org/nebula/job/nebula.stable.github/292/
+					2m 23s
+				Longest
+					2m 23s
+			Repair
+				DEFAULT 
+					2164 [Crashed] [Build id = 145]
+					2184 [Crashed] [Build id = 146]
+					2095 [Crashed] [Build id = 147]
+
+					4973 [Crashed] [Build id = 148]
+					3032 [Crashed] [Build id = 149] 
+					1860 [Crashed] [Build id = 150]
+					2272 [Crashed] [Build id = 151]
+
+				SEGMENT
+					2164 [Build id = 152]
+						[File Tree build time] : 75 ms
+						[Total repair time] : 65020 ms
+						[Total Repair Duration]: 1 min 20 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					2184 [Build id = 153]
+						[File Tree build time] : 82 ms
+						[Total repair time] : 60436 ms
+						[Total Repair Duration]: 1 min 10 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 14
+					2095 [Build id = 154]
+						[File Tree build time] : 68 ms
+						[Total repair time] : 136210 ms
+						[Total Repair Duration]: 2 min 25 sec
+						Number of Fixes - UnclosedResourcesProcessor: 17
+					4973 [Build id = 155]
+						[File Tree build time] : 65 ms
+						[Total repair time] : 61251 ms
+						[Total Repair Duration]: 1 min 15 sec 
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 9
+					3032 [Build id = 156]
+						[File Tree build time] : 78 ms
+						[Total repair time] : 60570 ms
+						[Total Repair Duration]: 1 min 9 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					1860 [Build id = 157]
+						[File Tree build time] : 113 ms
+						[Total repair time] : 60914 ms
+						[Total Repair Duration]: 1 min 10 sec
+						Number of Fixes - SynchronizationOnStringOrBoxedProcessor: 0
+					2272 [Build id = 158]
+						[File Tree build time] : 85 ms
+						[Total repair time] : 65186 ms
+						[Total Repair Duration]: 1 min 15 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 1
+
+		https://github.com/eclipse/winery
+			Branch: master
+			Commit id: 4bab504c10535ab39081dfbcfb4ad11f405bc6e4
+			Date: Jul 7, 2020 
+			Commiter: 
+			Source Files (SonarJava): 1006
+			Source Files (Bash): 2696
+			LOC: 122749
+			Detected
+				3032 - GetClassLoaderCheck=20
+				2095 - UnclosedResourcesCheck=12
+				2164 - MathOnFloatCheck=4
+				3067 - SynchronizationOnGetClassCheck=0
+				2184 - CastArithmeticOperandCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			CI time: https://github.com/eclipse/winery/commit/bf2c22cfc98553d7727beb5a0f4178a47a88363f
+				26 min 57 sec
+			Repair
+				DEFAULT 
+					3032 [Build id = 159]
+						[Total repair time] : 42473 ms
+						[Total Repair Duration]: 55 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 160]
+						[Total repair time] : 59533 ms
+						[Total Repair Duration]: 1 min 13 sec
+						Number of Fixes - UnclosedResourcesProcessor: 13
+					2164 [Build id = 162]
+						[Total repair time] : 33381 ms
+						[Total Repair Duration]: 49 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					3032 [Build id = 166]
+						[File Tree build time] : 55 ms
+						[Total repair time] : 39800 ms
+						[Total Repair Duration]: 51 sec 
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 164]
+						[File Tree build time] : 35 ms
+						[Total repair time] : 59220 ms
+						[Total Repair Duration]: 1 min 15 sec
+						UnclosedResourcesProcessor: 10
+					2164 [Build id = 165]
+						[File Tree build time] : 56 ms
+						[Total repair time] : 35832 ms
+						[Total Repair Duration]: 46 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+
+
+		https://github.com/eclipse/che
+			Branch: master
+			Commit id: 7cf97838a4492f4b20327adf0cba5f4c8033fbd7
+			Date: Jul 10, 2020 
+			Commiter: 
+			Source Files (SonarJava): 2536
+			Source Files (Bash): 3744
+			LOC: 267475
+			Detected
+				2164 - MathOnFloatCheck=20
+				3032 - GetClassLoaderCheck=14
+				2095 - UnclosedResourcesCheck=12
+				2184 - CastArithmeticOperandCheck=10
+				1656 - SelfAssignementCheck=1
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+			Repair
+				DEFAULT 
+					2164 [Crashed] [Build id = 167]
+					3032 [Crashed] [Build id = 168]
+					2095 [Crashed] [Build id = 169]
+					2184 [Crashed] [Build id = 170]
+					1656 [Crashed] [Build id = 171]
+					4973 [Crashed] [Build id = 172]
+				CI time - https://github.com/eclipse/che/pull/17422
+					https://ci.centos.org/job/devtools-che-pullrequests-build/954/
+						23m
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2164 [Build id = 173]
+						[File Tree build time] : 82 ms
+						[Total repair time] : 63386 ms
+						[Total Repair Duration]: [Total Repair Duration]: 1 min 36 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					3032 [Build id = 174]
+						[File Tree build time] : 77 ms
+						[Total repair time] : 65449 ms
+						[Total Repair Duration]: 1 min 38 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 175]
+						[File Tree build time] : 77 ms
+						[Total repair time] : 89630 ms
+						[Total Repair Duration]: 2 min 19 sec
+						Number of Fixes - UnclosedResourcesProcessor: 7
+					2184 [Build id = 176]
+						[File Tree build time] : 118 ms
+						[Total repair time] : 63044 ms
+						[Total Repair Duration]: 1 min 45 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 5
+					1656 [Build id = 177]
+						[File Tree build time] : 86 ms
+						[Total repair time] : 63108 ms
+						[Total Repair Duration]: 1 min 38 sec
+						Number of Fixes - SelfAssignementProcessor: 0
+					4973 [Build id = 178]
+						[File Tree build time] : 94 ms
+						[Total repair time] : 64736 ms
+						[Total Repair Duration]: 1 min 44 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 0
+
+		https://github.com/eclipse/jkube
+			branch:master
+			Commit id: cd475427f59c7df731e57b0516d4e8df0a0e9c3a
+			Date: Jul 10, 2020 
+			Commiter: 
+			Source Files (SonarJava): 646
+			Source Files (Bash): 1249
+			LOC: 85878
+			CI time - https://github.com/eclipse/jkube/commit/edb82c8ef8dff52a48b4c4e5dac4b183d5fe61e1
+				https://github.com/eclipse/jkube/runs/899201046
+					6m 40s 
+				https://github.com/eclipse/jkube/runs/899201182
+					26s
+				https://github.com/eclipse/jkube/runs/899201224
+					7m 55s
+				https://github.com/eclipse/jkube/runs/899201062
+					8m 41s 
+				https://github.com/eclipse/jkube/runs/899201083
+					8m 35s
+				https://github.com/eclipse/jkube/runs/899201110
+					8m 23s 
+				https://github.com/eclipse/jkube/runs/899201123
+					9m 45s
+				https://github.com/eclipse/jkube/runs/899201138
+					4m 37s 
+				https://github.com/eclipse/jkube/runs/899201167
+					5m 52s
+				https://github.com/eclipse/jkube/runs/899201189
+					10m 23s
+				https://github.com/eclipse/jkube/runs/899201208
+					10m 55s 
+				https://github.com/eclipse/jkube/runs/899201264
+					8m 29s
+				https://github.com/eclipse/jkube/runs/899201248
+					11m 22s 
+				https://github.com/eclipse/jkube/runs/899201234
+					10m 12s 
+				https://github.com/eclipse/jkube/runs/899201350
+					12m 59s 
+				https://github.com/eclipse/jkube/runs/899201365
+					11m 36s 
+				https://github.com/eclipse/jkube/runs/899201382
+					18m 22s 
+				https://github.com/eclipse/jkube/runs/899201400
+					14m 52s 
+				https://github.com/eclipse/jkube/runs/899201411
+					8m 42s 
+				https://github.com/eclipse/jkube/runs/899201419
+					9m 5s 
+				https://github.com/eclipse/jkube/runs/899201442
+					13m 4s 
+				https://github.com/eclipse/jkube/runs/899201462
+					10m 18s 
+				https://github.com/eclipse/jkube/runs/899201236
+					5m 39s
+				https://app.circleci.com/pipelines/github/eclipse/jkube/314/workflows/600e26ff-7ad5-49c3-a8aa-13bdd763c6ba/jobs/3424
+					8m 59s
+				https://app.circleci.com/pipelines/github/eclipse/jkube/314/workflows/600e26ff-7ad5-49c3-a8aa-13bdd763c6ba/jobs/3425
+					5m 2s
+				https://app.circleci.com/pipelines/github/eclipse/jkube/314/workflows/600e26ff-7ad5-49c3-a8aa-13bdd763c6ba/jobs/3427
+					11m 22s
+				https://app.circleci.com/pipelines/github/eclipse/jkube/314/workflows/600e26ff-7ad5-49c3-a8aa-13bdd763c6ba/jobs/3428
+					15s
+				https://app.circleci.com/pipelines/github/eclipse/jkube/314/workflows/600e26ff-7ad5-49c3-a8aa-13bdd763c6ba/jobs/3426
+					9m 49s
+				Total
+					256m 18s
+				Longest
+					18m 22s 
+
+			Detected
+				3032 - GetClassLoaderCheck=12
+				2095 - UnclosedResourcesCheck=3
+				2164 - MathOnFloatCheck=2
+				3067 - SynchronizationOnGetClassCheck=0
+				2184 - CastArithmeticOperandCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			Repair
+				DEFAULT 
+					3032 [Build id = 179]
+						[Total repair time] : 27911 ms
+						[Total Repair Duration]: 35 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 180]
+						[Total repair time] : 43498 ms
+						[Total Repair Duration]: 56 sec
+						Number of Fixes - UnclosedResourcesProcessor: 2
+					2164 [Build id = 181]
+						[Total repair time] : 27275 ms
+						[Total Repair Duration]: 35 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					3032 [Build id = 182]
+						[File Tree build time] : 49 ms
+						[Total repair time] : 30232 ms
+						[Total Repair Duration]: 37 sec 
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 183]
+						[File Tree build time] : 42 ms
+						[Total repair time] : 46648 ms
+						[Total Repair Duration]: 55 sec
+						Number of Fixes - UnclosedResourcesProcessor: 2
+					2164 [Build id = 184]
+						[File Tree build time] : 36 ms
+						[Total repair time] : 18463 ms
+						[Total Repair Duration]: 55 s
+						Number of Fixes - GetClassLoaderProcessor: 0
+	Apache
+		https://github.com/apache/fineract
+			Branch: develop
+			Commit id: 33dedd06f46fcb6c388263a31ae663f9c680a370
+			Date: Jul 11, 2020 
+			Commiter: 
+			Source Files (SonarJava): 3192
+			Source Files (Bash): 3801
+			LOC: 430781
+			Detect with miner	
+				2164 - MathOnFloatCheck=171
+				2184 - CastArithmeticOperandCheck=8
+				2095 - UnclosedResourcesCheck=4
+				2111 - BigDecimalDoubleConstructorCheck=2
+				3067 - SynchronizationOnGetClassCheck=0
+				3032 - GetClassLoaderCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			CI time - https://github.com/apache/fineract/commit/a84edce73b8e8af34b28ee2cf591e70e0a5b52dd
+				https://travis-ci.org/github/apache/fineract/builds/709937554
+					31 min 38 sec 
+			Repair
+				DEFAULT 
+					2164 [Build id = 185]
+						[Total repair time] : 81486 ms
+						[Total Repair Duration]: 1 min 41 sec
+						Number of Fixes - MathOnFloatProcessor: 16
+					2184 [Crashed] [Build id = 186]
+					2095 [Build id = 187]
+						[Total repair time] : 149402 ms
+						[Total Repair Duration]: 2 min 59 sec
+						Number of Fixes - UnclosedResourcesProcessor: 4
+					2111 [Build id = 188]
+						[Total repair time] : 83293 ms
+						[Total Repair Duration]: 1 min 58 sec
+						Number of Fixes - BigDecimalDoubleConstructorProcessor: 2
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2164 [Build id = 189]
+						[File Tree build time] : 43 ms
+						[Total repair time] : 84444 ms
+						[Total Repair Duration]: 1 min 48 sec
+						Number of Fixes - MathOnFloatProcessor: 16
+					2184 [Build id = 190]
+						[File Tree build time] :  69 ms
+						[Total repair time] : 82162 ms
+						[Total Repair Duration]: 1 min 44 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 1
+					2095 [Build id = 191]
+						[File Tree build time] : 48 ms
+						[Total repair time] : 161295 ms
+						[Total Repair Duration]: 3 min 3 sec
+						Number of Fixes - UnclosedResourcesProcessor: 4
+					2111 [Build id = 192]
+						[File Tree build time] : 53 ms
+						[Total repair time] : 86933 ms
+						[Total Repair Duration]: 1 min 50 sec
+						Number of Fixes - BigDecimalDoubleConstructorProcessor: 2
+
+		https://github.com/apache/incubator-heron
+			Branch: master
+			Commit id: 1c624852ed7248a9e97aac76471d73ef09a08476
+			Date: Jul 11, 2020 
+			Commiter: 
+			Source Files (SonarJava): 1234
+			Source Files (Bash): 2986
+			LOC: 151006
+			CI time: https://github.com/apache/incubator-heron/commit/42b87feff8e89f5564f97dec5c8fa87f758ce0aa 
+				https://travis-ci.org/github/apache/incubator-heron/builds/710389460
+					2 hrs 51 min 48 sec
+			Detect with miner
+				2184 - CastArithmeticOperandCheck=30
+				2164 - MathOnFloatCheck=6
+				2095 - UnclosedResourcesCheck=3
+				3032 - GetClassLoaderCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			Repair
+				DEFAULT 
+					2184 [Crashed] [Build id = 193]
+					2164 [Build id = 194]
+						[Total repair time] : 38981 ms
+						[Total Repair Duration]: 1 min 5 sec 
+						Number of Fixes - MathOnFloatProcessor: 0
+					2095 [Build id = 195]
+						[Total repair time] : 54157 ms
+						[Total Repair Duration]: 1 min 14 sec
+						Number of Fixes - UnclosedResourcesProcessor: 0
+					3032 [Crashed] [Build id = 197]
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2184 [Build id = 198]
+						[File Tree build time] : 59 ms
+						[Total repair time] : 39630 ms
+						[Total Repair Duration]: 1 min 13 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 22
+					2164 [Build id = 199]
+						[File Tree build time] : 66 ms
+						[Total repair time] : 39746 ms
+						[Total Repair Duration]: 1 min 0 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					2095 [Build id = 200]
+						[File Tree build time] : 71 ms
+						[Total repair time] : 58667 ms
+						[Total Repair Duration]: 1 min 36 sec
+						Number of Fixes - UnclosedResourcesProcessor: 0
+					3032 [Build id = 201]
+						[File Tree build time] : 61 ms
+						[Total repair time] : 41404 ms
+						[Total Repair Duration]: 1 min 14 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+
+		https://github.com/apache/skywalking
+			Branch: master
+			Commit id: 08da42018253dc4364a6efed4fd60ec024199ec8
+			Date: Jul 11, 2020 
+			Commiter: 
+			Source Files (SonarJava): 2910
+			Source Files (Bash): 4285
+			LOC: 227297
+			Detect with miner	
+				2095 - UnclosedResourcesCheck=43
+				3032 - GetClassLoaderCheck=29
+				2184 - CastArithmeticOperandCheck=11
+				2164 - MathOnFloatCheck=2
+				2272 - IteratorNextExceptionCheck=2
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+			CI time: https://github.com/apache/skywalking/commit/e356da4b0e264a7617b3356febe6d6e25361f20a
+				https://github.com/apache/skywalking/runs/872171304 (longest)
+					45m 58s
+			Repair
+				DEFAULT 
+					2095 [Crashed] [Build id = 203]
+					3032 [Crashed] [Build id = 204]
+					2184 [Crashed] [Build id = 206]
+					2164 [Crashed] [Build id = 205]
+					2272 [Crashed] [Build id = 207]
+					4973 [Crashed] [Build id = 208]kura
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2095 [Build id = 209]
+						[File Tree build time] : 168 ms
+						[Total repair time] : 83508 ms
+						[Total Repair Duration]: 2 min 7 sec
+						Number of Fixes - UnclosedResourcesProcessor: 9
+					3032 [Build id = 210]
+						[File Tree build time] : 122 ms
+						[Total repair time] : 59626 ms
+						[Total Repair Duration]: 1 min 37 sec 
+						Number of Fixes - GetClassLoaderProcessor: 4
+					2184 [Build id = 211]
+						[File Tree build time] : 114 ms
+						[Total repair time] : 59658 ms
+						[Total Repair Duration]: 1 min 49 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 5
+					2164 [Build id = 212]
+						[File Tree build time] : 118 ms
+						[Total repair time] : 60274 ms
+						[Total Repair Duration]: 1 min 36 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					2272 [Build id = 213]
+						[File Tree build time] : 122 ms
+						[Total repair time] : 61364 ms
+						[Total Repair Duration]: 1 min 44 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 2
+					4973 [Build id = 214]
+						[File Tree build time] : 190 ms
+						[Total repair time] : 60798 ms
+						[Total Repair Duration]: 1 min 50 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 1
+
+		https://github.com/apache/zookeeper
+			Branch: master
+			Commit id: 6ab1822ec431bb3309021c1ddc613a5eaa28d83b 
+			Date:  Jun 30, 2020 
+			Commiter: httpszookeeper/commits?author=tamaashu
+			Source Files (SonarJava): 1395
+			Source Files (Bash): 844
+			LOC: 173096
+			Detect with miner	
+				2095 - UnclosedResourcesCheck=55
+				2184 - CastArithmeticOperandCheck=15
+				2164 - MathOnFloatCheck=4
+				3032 - GetClassLoaderCheck=4
+				2272 - IteratorNextExceptionCheck=2
+				2111 - BigDecimalDoubleConstructorCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			CI time: https://github.com/apache/zookeeper/commit/5b58e19c85ca1dfb8b2a0eec1411b34e6ca2e47b
+				https://travis-ci.org/github/apache/zookeeper/builds/709228005?utm_source=github_status&utm_medium=notification
+					12 min 5 sec
+			Repair
+				DEFAULT
+					2095 [Crashed] [Build id = 215]
+					2184 [Crashed] [Build id = 216]
+					2164 [Crashed] [Build id = 217]
+					3032 [Crashed] [Build id = 218]
+					2272 [Crashed] [Build id = 219]
+					2111 [Crashed] [Build id = 220]
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2095 [Build id = 222]
+						[File Tree build time] : 111 ms
+						[Total repair time] : 80179 ms
+						[Total Repair Duration]: 1 min 57 sec 
+						Number of Fixes - UnclosedResourcesProcessor: 9
+					2184 [Build id = 223]
+						[File Tree build time] : 131 ms
+						[Total repair time] : 60488 ms
+						[Total Repair Duration]: 1 min 37 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 5
+					2164 [Build id = 224]
+						[File Tree build time] : 128 ms
+						[Total repair time] : 59046 ms
+						[Total Repair Duration]: 1 min 38 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					3032 [Build id = 225]
+						[File Tree build time] : 128 ms
+						[Total repair time] : 61915 ms
+						[Total Repair Duration]: 1 min 49 sec
+						Number of Fixes - GetClassLoaderProcessor: 4
+					2272 [Build id = 226]
+						[File Tree build time] : 236 ms
+						[Total repair time] : 58904 ms
+						[Total Repair Duration]: 1 min 57 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 2
+					2111 [Build id = 227]
+						[File Tree build time] : 184 ms
+						[Total repair time] : 57050 ms
+						[Total Repair Duration]: 1 min 57 sec
+						Number of Fixes - BigDecimalDoubleConstructorProcessor: 0
+
+		https://github.com/apache/pulsar
+			Branch: master
+			Commit id: 77ea9b8340169ca3fd36a7e282d596cf256a8709
+			Date: Jul 11, 2020 
+			Commiter: 
+			Source Files (SonarJava): 2447
+			Source Files (Bash): 4881
+			LOC: 518799
+			Detect with miner	
+				2184 - CastArithmeticOperandCheck=97
+				3032 - GetClassLoaderCheck=81
+				2095 - UnclosedResourcesCheck=31
+				2164 - MathOnFloatCheck=16
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=7
+				2272 - IteratorNextExceptionCheck=2
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+			CI time
+				https://github.com/apache/pulsar/pull/7627
+					https://github.com/apache/pulsar/pull/7627/checks?check_run_id=898230079
+						15m
+
+			Repair
+				DEFAULT 
+					2184 [Crashed] [Build id = 233]
+					3032 [Crashed] [Build id = 234]
+					2095 [Crashed] [Build id = 235]
+					2164 [Crashed] [Build id = 236]
+					4973 [Crashed] [Build id = 237]
+					2272 [Crashed] [Build id = 238]
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2184 [Build id = 227]
+						[File Tree build time] : 69 ms
+						[Total repair time] : 130710 ms
+						[Total Repair Duration]: 2 min 40 sec 
+						Number of Fixes - CastArithmeticOperandProcessor: 11
+					3032 [Build id = 228]
+						[File Tree build time] : 81 ms
+						[Total repair time] : 125390 ms
+						[Total Repair Duration]: 2 min 32 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2095 [Build id = 229]
+						[File Tree build time] : 73 ms
+						[Total repair time] : 245173 ms
+						[Total Repair Duration]: 4 min 25 sec
+						Number of Fixes - UnclosedResourcesProcessor: 14
+					2164 [Build id = 230]
+						[File Tree build time] : 69 ms
+						[Total repair time] : 124466 ms
+						[Total Repair Duration]: 2 min 37 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					4973 [Build id = 231]
+						[File Tree build time] : 115 ms
+						[Total repair time] : 125469 ms
+						[Total Repair Duration]: 2 min 36 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 7
+					2272 [Build id = 232]
+						[File Tree build time] : 66 ms
+						[Total repair time] : 124563 ms
+						[Total Repair Duration]: 2 min 30 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 2
+
+		https://github.com/apache/commons-math
+			Branch: master
+			Commit id: 849d551b8a9507a2ae8dfb81db36aa544a81ee47
+			Date:  Jun 29, 2020 
+Source Files (SonarJava): 1175
+			Source Files (Bash): 1363
+			LOC: 275556
+			Detect with miner	
+				2184 - CastArithmeticOperandCheck=83
+				2164 - MathOnFloatCheck=13
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=7
+				2111 - BigDecimalDoubleConstructorCheck=4
+				2272 - IteratorNextExceptionCheck=4
+				2095 - UnclosedResourcesCheck=3
+				3032 - GetClassLoaderCheck=1
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+			CI time - https://github.com/apache/commons-math/commit/d0ed03c953bf436fc4dc32260c6018a7791c9efc
+				https://travis-ci.org/github/apache/commons-math/builds/710480579
+					6m 2s
+			Repair
+				DEFAULT 
+					2184 [Crashed] [Build id = 239]
+					2164 [Build id = 240]
+						[Total repair time] : 50552 ms
+						[Total Repair Duration]: 1 min 10 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					4973 [Build id = 241]
+						[Total repair time] : 51468 ms
+						[Total Repair Duration]: 1 min 5 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 7
+					2111 [Build id = 242]
+						[Total repair time] : 49611 ms
+						[Total Repair Duration]: 1 min 5 sec
+						Number of Fixes - BigDecimalDoubleConstructorProcessor: 4
+					2272 [Crashed] [Build id = 243]
+					2095 [Build id = 244]
+						[Total repair time] : 137007 ms
+						[Total Repair Duration]: 2 min 30 sec
+						Number of Fixes - UnclosedResourcesProcessor: 3
+					3032 [Build id = 245]
+						[Total repair time] : 51541 ms
+						[Total Repair Duration]: 1 min 8 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2184 [Build id = 246]
+						[File Tree build time] : 17 ms
+						[Total repair time] : 54158 ms
+						[Total Repair Duration]: 1 min 7 sec
+						Number of Fixes - CastArithmeticOperandProcessor: 24
+					2164 [Build id = 247]
+						[File Tree build time] : 26 ms
+						[Total repair time] : 54359 ms
+						[Total Repair Duration]: 1 min 17 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+					4973 [Build id = 248]
+						[File Tree build time] : 22 ms
+						[Total repair time] : 54412 ms
+						[Total Repair Duration]: 1 min 19 sec
+						Number of Fixes - CompareStringsBoxedTypesWithEqualsProcessor: 7
+					2111 [Build id = 249]
+						[File Tree build time] : 23 ms
+						[Total repair time] : 52459 ms
+						[Total Repair Duration]: 1 min 10 sec
+						Number of Fixes - BigDecimalDoubleConstructorProcessor: 4
+					2272 [Build id = 250]
+						[File Tree build time] : 28 ms
+						[Total repair time] : 54879 ms
+						[Total Repair Duration]: 1 min 10 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 1
+					2095 [Build id = 251]
+						[File Tree build time] : 25 ms
+						[Total repair time] : 147521 ms
+						[Total Repair Duration]: 2 min 55 sec 
+						Number of Fixes - UnclosedResourcesProcessor: 3
+					3032 [Build id = 252]
+						[File Tree build time] : 24 ms
+						[Total repair time] : 52309 ms
+						[Total Repair Duration]: 1 min 19 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+		https://github.com/apache/iceberg
+			Branch: master
+			Commit id: a2796f0fd38e517d17462ebc7b0234282e976dd3 
+			Date: Jun 29, 2020 
+			Commiter: 
+			Source Files (SonarJava): 774 
+			Source Files (Bash): 2396
+			LOC: 142879
+			Detect with miner	
+				2184 - CastArithmeticOperandCheck=19
+				3032 - GetClassLoaderCheck=4
+				2272 - IteratorNextExceptionCheck=4
+				2095 - UnclosedResourcesCheck=2
+				2164 - MathOnFloatCheck=2
+				3067 - SynchronizationOnGetClassCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+			CI time - https://github.com/apache/iceberg/commit/129c9693683fe0f3937f467d1fd817cb602f8224
+				https://travis-ci.org/github/apache/iceberg/builds/710825449
+					51 min 29 sec
+			Repair
+				DEFAULT 
+					2184 [Crashed] [Build id = 253]
+					3032 [Crashed] [Build id = 254]
+					2272 [Crashed] [Build id = 255]
+					2095 [Crashed] [Build id = 256]
+					2164 [Crashed] [Build id = 257] 
+
+				SEGMENT [segment size = 100] [MaxFixes = 2000]
+					2184 [Build id = 258]
+						[File Tree build time] : 37 ms
+						[Total repair time] : 33936 ms
+						[Total Repair Duration]: 42 sec 
+						Number of Fixes - CastArithmeticOperandProcessor: 5
+					3032 [Build id = 259]
+						[File Tree build time] : 27 ms
+						[Total repair time] : 33681 ms
+						[Total Repair Duration]: 42 sec
+						Number of Fixes - GetClassLoaderProcessor: 0
+					2272 [Build id = 260]
+						[File Tree build time] : 43 ms
+						[Total repair time] : 33721 ms
+						[Total Repair Duration]: 41 sec
+						Number of Fixes - IteratorNextExceptionProcessor: 2
+					2095 [Build id = 261]
+						[File Tree build time] : 34 ms
+						[Total repair time] : 47126 ms
+						[Total Repair Duration]: 55 sec
+						Number of Fixes - UnclosedResourcesProcessor: 0
+					2164 [Build id = 262]
+						[File Tree build time] : 47 ms
+						[Total repair time] : 35078 ms
+						[Total Repair Duration]: 47 sec
+						Number of Fixes - MathOnFloatProcessor: 0
+
+		GitLink
+			Branch
+			Commit id: 
+			Date: 
+			SonarJava):
+			Source Files (Bash):
+			LOC: 
+			Detect with miner
+				2164 - MathOnFloatCheck=0
+				2095 - UnclosedResourcesCheck=0
+				4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+				2184 - CastArithmeticOperandCheck=0
+				3067 - SynchronizationOnGetClassCheck=0
+				3032 - GetClassLoaderCheck=0
+				2116 - ArrayHashCodeAndToStringCheck=0
+				2111 - BigDecimalDoubleConstructorCheck=0
+				2167 - CompareToReturnValueCheck=0
+				1854 - UnusedThrowableCheck=0
+				1860 - SynchronizationOnStringOrBoxedCheck=0
+				1656 - SelfAssignementCheck=0
+				2204 - EqualsOnAtomicClassCheck=0
+				2272 - IteratorNextExceptionCheck=0
+			
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+# How to check out details on each experiment
+In experimentLog, Repair Section under each project contains Default or Segment and under those are experiments performed on Jenkins CI. The first number is the rule number and then on the same line there is a build id. The build id can be used to look up the corresponding id in the folder `builds` in this repo. Thereafter a detailed Jenkins CI log can be checked for that particular experiment.
