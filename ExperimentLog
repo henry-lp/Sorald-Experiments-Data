@@ -1339,6 +1339,87 @@ Date 7 june 2020
 						[Total repair time] : 18463 ms
 						[Total Repair Duration]: 55 s
 						Number of Fixes - GetClassLoaderProcessor: 0
+		https://github.com/eclipse/pdt
+		Branch: master
+		Commit id: ed9fe5920966ceb5cd9242263bb6a1eff9147afc
+		Date: 29 July 2020
+		Commiter: https://github.com/zulus
+		Source Files (SonarJava):
+		Source Files (Bash): 15486
+		LOC: 852255
+		Detect with miner
+			2095 - UnclosedResourcesCheck=17
+			4973 - CompareStringsBoxedTypesWithEqualsCheck=11
+			2164 - MathOnFloatCheck=10
+			2272 - IteratorNextExceptionCheck=3
+			2184 - CastArithmeticOperandCheck=1
+			2116 - ArrayHashCodeAndToStringCheck=1
+			3067 - SynchronizationOnGetClassCheck=0
+			3032 - GetClassLoaderCheck=0
+			2111 - BigDecimalDoubleConstructorCheck=0
+			2167 - CompareToReturnValueCheck=0
+			1854 - UnusedThrowableCheck=0
+			1860 - SynchronizationOnStringOrBoxedCheck=0
+			1656 - SelfAssignementCheck=0
+			2204 - EqualsOnAtomicClassCheck=0
+		CI time
+			https://github.com/eclipse/pdt/commit/ed9fe5920966ceb5cd9242263bb6a1eff9147afc
+				 16m 35s
+
+	https://github.com/eclipse/paho.mqtt.java
+		Branch: develop
+		Commit id: 570ed6eeaba81b0865821fed6de0d36142fedfde
+		Date: 29 July 2020
+		Commiter: https://github.com/rdasgupt
+		Source Files (SonarJava):
+		Source Files (Bash): 812
+		LOC: 67830
+		Detect with miner
+			2095 - UnclosedResourcesCheck=19
+			3032 - GetClassLoaderCheck=12
+			2184 - CastArithmeticOperandCheck=9
+			4973 - CompareStringsBoxedTypesWithEqualsCheck=2
+			SynchronizationOnGetClassCheck=0
+			ArrayHashCodeAndToStringCheck=0
+			BigDecimalDoubleConstructorCheck=0
+			CompareToReturnValueCheck=0
+			MathOnFloatCheck=0
+			UnusedThrowableCheck=0
+			SynchronizationOnStringOrBoxedCheck=0
+			SelfAssignementCheck=0
+			EqualsOnAtomicClassCheck=0
+			IteratorNextExceptionCheck=0
+		CI time
+			https://github.com/eclipse/paho.mqtt.java/commit/570ed6eeaba81b0865821fed6de0d36142fedfde
+				21 min 17 sec
+
+	https://github.com/eclipse/hawkbit
+		Branch: master
+		Commit id: 195ad6fc2e83984f24deef3682118f536d7a062f
+		Date: 29 July 2020
+		Commiter: https://github.com/schabdo
+		Source Files (SonarJava):
+		Source Files (Bash): 2815
+		LOC: 178622
+		Detect with miner
+			2164 - MathOnFloatCheck=22
+			2184 - CastArithmeticOperandCheck=5
+			2095 - UnclosedResourcesCheck=2
+			3067 - SynchronizationOnGetClassCheck=0
+			3032 - GetClassLoaderCheck=0
+			2116 - ArrayHashCodeAndToStringCheck=0
+			2111 - BigDecimalDoubleConstructorCheck=0
+			2167 - CompareToReturnValueCheck=0
+			1854 - UnusedThrowableCheck=0
+			1860 - SynchronizationOnStringOrBoxedCheck=0
+			1656 - SelfAssignementCheck=0
+			2204 - EqualsOnAtomicClassCheck=0
+			2272 - IteratorNextExceptionCheck=0
+			4973 - CompareStringsBoxedTypesWithEqualsCheck=0
+		CI time
+			https://github.com/eclipse/hawkbit/commit/0873f6df97c3f6b222ea39a50e1cc9792f17f669
+				19m 16s
+				
 	Apache
 		https://github.com/apache/fineract
 			Branch: develop
